@@ -23,7 +23,7 @@ align-items: center;
 /* SCCS */
 body{
     color:$colorText;
-}
+}  
 .mobile-nav-toggle {
     position: fixed;
     right: 15px;
@@ -50,7 +50,6 @@ body{
         color: #fff;
       }
   }
-
 #header{
     position: fixed;
     top: 0;
@@ -148,10 +147,27 @@ body{
     height: 100vh;
     background: url(../img/background.png)top center;
     background-size: cover;
-    .background-container{
-        position: relative;
-        z-index: 100;
+    &:before{
+        content: "";
+        background: rgba(5, 13, 24, 0.3);
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;  
+      }
+      .background-container{
+        position: relative;  
+        z-index: 2;   
         min-width: 300px;
+    }
+    h1{
+        margin: 0 0 10px 0;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 56px;
+        color: #fff;       
     }
     p {
         color: white;
@@ -171,6 +187,9 @@ body{
 section {
     padding: 60px 0;
     overflow: hidden;
+    .card{
+        background-color: $colorExtras;
+    }
 }
 
 #main{
@@ -193,7 +212,7 @@ section {
             display: block;
             width: 50px;
             height: 3px;
-            background: $colorPrincipal;
+            background: $colorSecond;
             bottom: 0px;
             left: 0px;
         }    
@@ -204,34 +223,78 @@ section {
     }
 }
 
-  .content h3{
-    font-weight: 700;
-    font-size: 50px;
-    color: red;
-  }
+  #about .content {
+    h3{
+        font-weight: 700;
+        font-size: 26px;
+        color: $colorTittle-Sub;
+      }
+      ul{
+          list-style: none;
+          padding: 0;
+          li{
+              padding-bottom: 10px;
+              font-size: 18px;
+          }
+          i{
+              font-size: 20px;
+              padding-right: 2px;
+              color: $colorSecond;
+          }
+      }
+  } 
+  .skills{
+    .progress {
+        height: 50px;
+        display: block;
+        background: none;
+        .skill {
+            padding: 10px 0;
+            margin: 0 0 6px 0;
+            text-transform: uppercase;
+            display: block;
+            font-weight: 600;
+            font-family: "Poppins", sans-serif;
+            color: #fff;
+            .val {
+                float: right;
+                font-style: normal;
+              }
+          }
+      }
+      .progress-bar-wrap {
+        background:$colorExtras;
+      }
+      .progress-bar {
+        width: 1px;
+        height: 10px;
+        transition: .9s;
+        background-color: #149ddd;
+      }
+  }   
+  
 
   /* MEDIA QUERIES */
-  
-@media (max-width: 576px) {
-    .container, .container-sm {
-        max-width:540 ;
-    }
-}
 
-@media (min-width: 768px){
-    .container, .container-md, .container-sm {
-  max-width: 720px;
-    }
-}
-
-@media (min-width: 1200px) { 
+  @media (min-width: 1024) { 
     #background {
         background-attachment: fixed;
     }
-     .container, .container-lg, .container-md, .container-sm, .container-xl {
-        max-width: 1140px;
+}
+  @media (max-width: 768px){
+      #background{
+        h1{
+          font-size: 28px;
+          line-height: 36px;
+      }
+      h2{
+          font-size: 18px;
+          line-height: 24px;
+          margin-bottom: 30px;
+      }
     }
 }
+
 
 /* Oculta el header en vistas mobile */
 @media (max-width: 1199px) {
@@ -242,21 +305,3 @@ section {
       margin-left: 0;
     }
 }
-
-  @media (min-width: 1024px) {
-    #background {
-      background-attachment: fixed;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    #background h1 {
-      font-size: 28px;
-      line-height: 36px;
-    }
-    #background h2 {
-      font-size: 18px;
-      line-height: 24px;
-      margin-bottom: 30px;
-    }
-  }
