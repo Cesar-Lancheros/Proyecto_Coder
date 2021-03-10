@@ -58,7 +58,7 @@ body {
     margin: 15px auto;
     display: block;
     width: 120px;
-    border: 8px solid #222823; }
+    border: 10px solid #050D18; }
   #header .profile h1 {
     font-size: 24px;
     margin: 0;
@@ -154,7 +154,7 @@ section {
   padding: 60px 0;
   overflow: hidden; }
   section .card {
-    background-color: #424242; }
+    background-color: #050D18; }
 
 #main {
   margin-left: 300px;
@@ -215,13 +215,13 @@ section {
       font-style: normal; }
 
 .skills .progress-bar-wrap {
-  background: #424242; }
+  background: #050D18; }
 
 .skills .progress-bar {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #149ddd; }
+  background-color: #6798C6; }
 
 /* MEDIA QUERIES */
 @media (min-width: 1024) {
