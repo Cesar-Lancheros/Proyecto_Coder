@@ -1,0 +1,47 @@
+[33mcommit 2941d3e3fcb99b94f77a6eb0d1573ebfec4cfa34[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;32mcontentt1[m[33m)[m
+Author: CesarL <cesardavid150@hotmail.com>
+Date:   Sun Mar 14 23:31:53 2021 -0500
+
+    Informacion, Setup , Marcas completamente funcionales
+
+[33mcommit d1f35ea1ca183bc037d83614f42a8ceb0bc0c9dd[m
+Author: CesarL <cesardavid150@hotmail.com>
+Date:   Sun Mar 14 17:46:06 2021 -0500
+
+    SCSS SETUP
+
+[33mcommit d48ae55615c54d86f88bd7dc75d4e77ac63124d4[m[33m ([m[1;32mcontent[m[33m)[m
+Author: CesarL <cesardavid150@hotmail.com>
+Date:   Wed Mar 10 00:24:40 2021 -0500
+
+    Direcciones en el html corregidas
+
+[33mcommit 5ea4b25777614178f556b467d58d73d54797fae1[m
+Author: CesarL <cesardavid150@hotmail.com>
+Date:   Tue Mar 9 23:42:47 2021 -0500
+
+    Test
+
+[33mcommit b9f51d492236795cd21241f2bf3cb401e18be518[m[33m ([m[1;32mhome[m[33m)[m
+Author: CesarL <cesardavid150@hotmail.com>
+Date:   Thu Feb 25 21:33:29 2021 -0500
+
+    Js completamente funcional+ Responsive completo+ detalles a la paleta de colores+ complete la parte informacion/home
+
+[33mcommit 36e2936031fca9b2e976fe46d1d059f8487e1dfa[m
+Author: CesarL <cesardavid150@hotmail.com>
+Date:   Tue Feb 23 18:15:53 2021 -0500
+
+    Añadido boton hamburgusa + Configuracion de los scrips
+
+[33mcommit 4c53b7d4b48768a3b7d557fd584f87496427791f[m
+Author: CesarL <cesardavid150@hotmail.com>
+Date:   Tue Feb 23 15:25:21 2021 -0500
+
+    Arregle el problema con el background
+
+[33mcommit 04d46f22234c5f052a9ade92783a0f9661a83423[m
+Author: CesarL <cesardavid150@hotmail.com>
+Date:   Tue Feb 16 15:31:17 2021 -0500
+
+    Cree el repositiorio para el proyecto
